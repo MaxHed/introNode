@@ -1,0 +1,19 @@
+{
+  "name": "intro",
+  "version": "0.0.0",
+  "description": "Une introduction à NodeJs, expressJs  et ce genre de bidules, pour les 7 courageux qui sont en CSI dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Maxence Hedouin <maxencehedouin22@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
